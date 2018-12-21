@@ -1,6 +1,7 @@
 console.log("Javascript DOM");
 
 const formPokemonName = document.getElementById("pokemon-guest") 
+const outputPokemonName = document.getElementById("pokemon-output")
 
 const submitPokemon = eventNow => {
     eventNow.preventDefault();
@@ -14,6 +15,11 @@ const submitPokemon = eventNow => {
 
 const displayToConsole = data =>{
     console.log(data)
+}
+
+const displayToDocument = data => {
+    const name = data 
+    outputPokemonName.innerHTML += name
 }
 
 formPokemonName.addEventListener("submit", submitPokemon)
