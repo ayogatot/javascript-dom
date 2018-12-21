@@ -9,10 +9,10 @@
   </head>
   <body>
       <header>
-          <h1>Pokedex</h1>
+          <h1 class="title">Pokedex</h1>
       </header>
     <main>
-      <form id="pokemon-guest">
+      <form id="pokemon-guest" class="pokemon-guest">
         <div>
           <input
             type="text"
@@ -20,9 +20,12 @@
             class="pokemon-name"
             placeholder="Input your Pokemon name"
           />
-          <input type="submit" class="submit-pokemon" id="submit-pokemon" value="GO" />
+          <input type="submit" class="pokemon-name" id="submit-pokemon" value="GO" />
         </div>
       </form>
+    <section id="pokemon-output" class="pokemon-output">
+        <!-- OUTPUT -->
+    </section>
     </main>
     <script src="index.js"></script>
   </body>
