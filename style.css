@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 252, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    background: #f53d3d;
+    padding: 10px; 
+}
+
+.pokemon-guest {
+    font-family: -apple-system, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.pokemon-name {
+    padding: 10px;
+}
